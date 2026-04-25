@@ -1,0 +1,68 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo: lockfile — commit for application/binary crates, ignore for library-only
+# (uncomment the next line if this repo is a pure library you publish to crates.io)
+# Cargo.lock
+
+# Native / CMake / make (e.g. FFmpeg, VLC, C deps)
+build/
+out/
+dist/
+*.o
+*.a
+*.lo
+*.la
+.deps/
+.dirstamp
+config.status
+config.log
+autom4te.cache/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Logs and debug
+*.log
+npm-debug.log*
+.cache/
+
+# Optional: vendor/temp during experiments
+/vendor/
+tmp/
+temp/
+*.tmp
+
+# Optional: Unity / Unreal if you add VR client tooling later
+# /Library/
+# [Bb]uild/
+# [Uu]ser[Ss]ettings/
