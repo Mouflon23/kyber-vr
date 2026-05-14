@@ -56,6 +56,9 @@ Desktop.ini
 npm-debug.log*
 .cache/
 
+# Local upstream test clones (see upstream/README.md); only this README is tracked
+upstream/
+
 # Optional: vendor/temp during experiments
 /vendor/
 tmp/
@@ -66,3 +69,5 @@ temp/
 # /Library/
 # [Bb]uild/
 # [Uu]ser[Ss]ettings/
+
+.cursor/
